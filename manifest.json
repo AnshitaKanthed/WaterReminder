@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Drink Water Reminder",
+    "version": "1.0",
+    "description": "Customizable reminder to drink water at a custom interval.",
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": [
+      "alarms",
+      "storage",
+      "notifications" 
+    ],
+    "icons": {
+      "48": "icon.png"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Drink Water Reminder",
+      "default_icon": "icon.png"
+    }
+  }
+  
