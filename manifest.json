@@ -12,12 +12,12 @@
       "notifications" 
     ],
     "icons": {
-      "48": "icon.png"
+      "48": "water.jpg"
     },
     "action": {
       "default_popup": "popup.html",
       "default_title": "Drink Water Reminder",
-      "default_icon": "icon.png"
+      "default_icon": "water.jpg"
     }
   }
   
